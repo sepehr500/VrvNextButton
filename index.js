@@ -35,6 +35,7 @@ window.onload = () => {
     button.addEventListener("click", () => {
       const video = document.querySelector("video");
       video.currentTime = video.duration;
+      video.play();
     });
   };
 };
