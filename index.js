@@ -34,7 +34,7 @@ window.onload = () => {
     button.title = "Skip";
     button.addEventListener("click", () => {
       const video = document.querySelector("video");
-      video.currentTime = video.duration;
+      video.currentTime = video.duration - 0.001;
       video.play();
     });
   };
